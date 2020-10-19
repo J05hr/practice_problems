@@ -5,9 +5,9 @@ from typing import List
 class Solution:
     a2 = [7, 1, 5, 3, 6, 4]
     a = [1,1,2,2,3,3,4,5,5,6,6]
+    b = [4,1,2,1,2] # 11224
 
     def singleNumber(self, nums: List[int]) -> int:
-
         itemset = dict()
         for num in nums:
            if num in itemset:
@@ -18,7 +18,6 @@ class Solution:
         res = list(itemset.keys())
         return res[0]
 
-
     def singleNumber2(self, nums: List[int]) -> int:
         nums.sort()
         idx = 0
@@ -26,6 +25,8 @@ class Solution:
             if nums[idx] != nums[idx+1]:
                 return nums[idx]
             idx += 2
+        return nums[idx]
+    
 
 memes = Solution()
-print(memes.singleNumber2(memes.a))
+print(memes.singleNumber2(memes.b))
