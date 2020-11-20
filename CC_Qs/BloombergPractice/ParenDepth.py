@@ -1,0 +1,1 @@
+# find string at highest depth e.g.,((AB)(((CD)))) return depth 4 and string = CD

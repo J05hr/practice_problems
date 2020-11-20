@@ -1,0 +1,1 @@
+# Given an array return whether the array is sorted or not (boolean).
