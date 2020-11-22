@@ -2,54 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6337bde4-b7bd-4d62-b245-86c4b003dc14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CC_Qs/BloombergPractice/LFUCache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC_Qs/BloombergPractice/LRUCache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC_Qs/BloombergPractice/PalindromeNumber.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC_Qs/BloombergPractice/ParenDepth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC_Qs/BloombergPractice/bstNodes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC_Qs/BloombergPractice/decodeString.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC_Qs/BloombergPractice/flattenLL.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC_Qs/BloombergPractice/insertDeleteGetO1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC_Qs/BloombergPractice/isSorted.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC_Qs/BloombergPractice/longestUniqueSubstring.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC_Qs/BloombergPractice/minStack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC_Qs/BloombergPractice/minStepsGenNumber.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC_Qs/BloombergPractice/removeElements.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC_Qs/BloombergPractice/removeParens.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC_Qs/BloombergPractice/streamOutput.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC_Qs/BloombergPractice/stringSubsets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC_Qs/BloombergPractice/twoCityScheduling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC_Qs/IBMPractice/mergeIntervals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Info/ML-AI-notes.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode/Strings/validAnagram.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicAlgos/BFS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicAlgos/DFS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicAlgos/DjikstrasUCS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicAlgos/basicRecursionWithStrings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicAlgos/insertionSort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicAlgos/mergeSort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicAlgos/selectionSort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project1/CheatSheet.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project1/Project1.hs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project1/Recursion.lhs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project1/pa1.lhs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/.ghc.environment.x86_64-mingw32-8.6.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/Project2.hs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/Setup.hs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/Setup.hs.save0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/dist-newstyle/build/x86_64-windows/ghc-8.6.3/pa2-0.1.0.0/x/pa2/build/pa2/autogen/Paths_pa2.hs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/dist-newstyle/build/x86_64-windows/ghc-8.6.3/pa2-0.1.0.0/x/pa2/build/pa2/autogen/cabal_macros.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/dist-newstyle/build/x86_64-windows/ghc-8.6.3/pa2-0.1.0.0/x/pa2/build/pa2/pa2-tmp/Main.hi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/dist-newstyle/build/x86_64-windows/ghc-8.6.3/pa2-0.1.0.0/x/pa2/build/pa2/pa2-tmp/Main.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/dist-newstyle/build/x86_64-windows/ghc-8.6.3/pa2-0.1.0.0/x/pa2/build/pa2/pa2-tmp/Project2.hi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/dist-newstyle/build/x86_64-windows/ghc-8.6.3/pa2-0.1.0.0/x/pa2/build/pa2/pa2-tmp/Project2.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/dist-newstyle/build/x86_64-windows/ghc-8.6.3/pa2-0.1.0.0/x/pa2/build/pa2/pa2.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/dist-newstyle/build/x86_64-windows/ghc-8.6.3/pa2-0.1.0.0/x/pa2/cache/build" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/dist-newstyle/build/x86_64-windows/ghc-8.6.3/pa2-0.1.0.0/x/pa2/cache/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/dist-newstyle/build/x86_64-windows/ghc-8.6.3/pa2-0.1.0.0/x/pa2/cache/registration" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/dist-newstyle/build/x86_64-windows/ghc-8.6.3/pa2-0.1.0.0/x/pa2/package.conf.inplace/package.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/dist-newstyle/build/x86_64-windows/ghc-8.6.3/pa2-0.1.0.0/x/pa2/package.conf.inplace/package.cache.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/dist-newstyle/build/x86_64-windows/ghc-8.6.3/pa2-0.1.0.0/x/pa2/setup-config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/dist-newstyle/cache/compiler" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/dist-newstyle/cache/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/dist-newstyle/cache/elaborated-plan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/dist-newstyle/cache/improved-plan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/dist-newstyle/cache/plan.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/dist-newstyle/cache/solver-plan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/dist-newstyle/cache/source-hashes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/dist-newstyle/cache/up-1EA3.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/dist-newstyle/cache/up-to-date" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/dist-newstyle/packagedb/ghc-8.6.3/package.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/dist-newstyle/packagedb/ghc-8.6.3/package.cache.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/pa2.cabal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project2/pa2.lhs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project3/Project3.hs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project3/pa3.lhs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project4/Lec21.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project4/Project4.hs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project4/cabal.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project4/lec22.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project4/lec23.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project4/lec25.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project4/pa4.lhs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project4/pa5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/Haskell/CS314 project4/project5.pl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CC_Qs/Aladdin.py" beforeDir="false" afterPath="$PROJECT_DIR$/CC_Qs/IBMPractice/Aladdin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CC_Qs/Maximum subarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/CC_Qs/IBMPractice/Maximum subarray.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CC_Qs/Palantir_Flood_Map_A.py" beforeDir="false" afterPath="$PROJECT_DIR$/CC_Qs/PalantirPractice/Palantir_Flood_Map_A.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CC_Qs/basins.py" beforeDir="false" afterPath="$PROJECT_DIR$/CC_Qs/PalantirPractice/basins.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CC_Qs/bytes_memes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CC_Qs/IBMPractice/bytes_memes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CC_Qs/current.py" beforeDir="false" afterPath="$PROJECT_DIR$/CC_Qs/Other/current.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CC_Qs/fizzbuzz.py" beforeDir="false" afterPath="$PROJECT_DIR$/CC_Qs/Other/fizzbuzz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CC_Qs/flood fill.py" beforeDir="false" afterPath="$PROJECT_DIR$/CC_Qs/PalantirPractice/flood fill.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CC_Qs/hankerRankSample.py" beforeDir="false" afterPath="$PROJECT_DIR$/CC_Qs/PalantirPractice/hankerRankSample.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CC_Qs/largeResponses.py" beforeDir="false" afterPath="$PROJECT_DIR$/CC_Qs/IBMPractice/largeResponses.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CC_Qs/memes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CC_Qs/IBMPractice/memes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CC_Qs/mergeIntervals.py" beforeDir="false" afterPath="$PROJECT_DIR$/CC_Qs/BloombergPractice/1dCandyCrush.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CC_Qs/nextpermutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/CC_Qs/IBMPractice/nextpermutation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CC_Qs/parkingdilemma.py" beforeDir="false" afterPath="$PROJECT_DIR$/CC_Qs/IBMPractice/parkingdilemma.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CC_Qs/partitioningarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/CC_Qs/IBMPractice/partitioningarray.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CC_Qs/purchasingSupplies.py" beforeDir="false" afterPath="$PROJECT_DIR$/CC_Qs/IBMPractice/purchasingSupplies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CC_Qs/separatingstudents.py" beforeDir="false" afterPath="$PROJECT_DIR$/CC_Qs/IBMPractice/separatingstudents.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CC_Qs/shiftingstrings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CC_Qs/IBMPractice/shiftingstrings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CC_Qs/shoppersDelight.py" beforeDir="false" afterPath="$PROJECT_DIR$/CC_Qs/IBMPractice/shoppersDelight.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CC_Qs/theperfectteam.py" beforeDir="false" afterPath="$PROJECT_DIR$/CC_Qs/IBMPractice/theperfectteam.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CC_Qs/triplets.py" beforeDir="false" afterPath="$PROJECT_DIR$/CC_Qs/IBMPractice/triplets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CC_Qs/twostrings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CC_Qs/Other/twostrings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CC_Qs/utf-8-validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/CC_Qs/Other/utf-8-validation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CC_Qs/whosTheClosest.py" beforeDir="false" afterPath="$PROJECT_DIR$/CC_Qs/IBMPractice/whosTheClosest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Info/basics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Info/graph-notes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/validAnagram.py" beforeDir="false" afterPath="$PROJECT_DIR$/CC_Qs/BloombergPractice/validAnagram.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/validParen.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/Other/validParen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CC_Qs/BloombergPractice/twoCityScheduling.py" beforeDir="false" afterPath="$PROJECT_DIR$/CC_Qs/BloombergPractice/twoCityScheduling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CC_Qs/BloombergPractice/validAnagram.py" beforeDir="false" afterPath="$PROJECT_DIR$/CC_Qs/BloombergPractice/validAnagram.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,13 +90,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/CC_Qs/BloombergPractice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CC_Qs/BloombergPractice/twoCityScheduling.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\J05h\Desktop\Projects\Joshs-practice-problems\CC_Qs\BloombergPractice" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\J05h\Desktop\Projects\Joshs-practice-problems\CC_Qs\Other" />
       <recent name="C:\Users\J05h\Desktop\Projects\Joshs-practice-problems\CC_Qs\PalantirPractice" />
@@ -95,8 +101,12 @@
       <recent name="C:\Users\J05h\Desktop\Projects\Joshs-practice-problems\Leetcode\Other" />
       <recent name="C:\Users\J05h\Desktop\Projects\Joshs-practice-problems\Leetcode\Strings" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\J05h\Desktop\Projects\Joshs-practice-problems\School\Haskell" />
+      <recent name="C:\Users\J05h\Desktop\Projects\Joshs-practice-problems\CC_Qs\BloombergPractice" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.reversestrings">
+  <component name="RunManager" selected="Python.twoCityScheduling">
     <configuration name="Best Time to Buy and Sell Stock II" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -163,10 +173,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="twoCityScheduling" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CC_Qs/BloombergPractice" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CC_Qs/BloombergPractice/twoCityScheduling.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Best Time to Buy and Sell Stock II" />
       <item itemvalue="Python.Rotate Array" />
       <item itemvalue="Python.reversestrings" />
+      <item itemvalue="Python.twoCityScheduling" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -187,7 +220,8 @@
       <workItem from="1603720617794" duration="5521000" />
       <workItem from="1604332683266" duration="5479000" />
       <workItem from="1605653881430" duration="1806000" />
-      <workItem from="1605895974047" duration="1340000" />
+      <workItem from="1605895974047" duration="2312000" />
+      <workItem from="1605994510386" duration="8428000" />
     </task>
     <task id="LOCAL-00001" summary="add gitignore">
       <created>1600541775400</created>
@@ -203,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604158337462</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new problems">
+      <created>1605897651374</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605897651374</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,57 +253,58 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add gitignore" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="new problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="new problems" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="179" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603722246491">
+    <state x="414" y="179" width="1092" height="739" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606003686814">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="414" y="179" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/-1080.-66.1080.1890@0.0.1920.1050" timestamp="1603722246491" />
-    <state x="581" y="118" key="CommitChangelistDialog2" timestamp="1604158334112">
+    <state x="414" y="179" width="1092" height="739" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/-1080.-66.1080.1890@0.0.1920.1050" timestamp="1606003686814" />
+    <state x="581" y="118" key="CommitChangelistDialog2" timestamp="1605897648215">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="581" y="118" key="CommitChangelistDialog2/0.0.1920.1050/-1080.-66.1080.1890@0.0.1920.1050" timestamp="1604158334112" />
-    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1603722245784">
+    <state x="581" y="118" key="CommitChangelistDialog2/0.0.1920.1050/-1080.-66.1080.1890@0.0.1920.1050" timestamp="1605897648215" />
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1606003685609">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050/-1080.-66.1080.1890@0.0.1920.1050" timestamp="1603722245784" />
-    <state width="1840" height="352" key="GridCell.Tab.0.bottom" timestamp="1604158834136">
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050/-1080.-66.1080.1890@0.0.1920.1050" timestamp="1606003685609" />
+    <state width="1877" height="360" key="GridCell.Tab.0.bottom" timestamp="1606004749624">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1840" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1080.-66.1080.1890@0.0.1920.1050" timestamp="1604158834136" />
-    <state width="1840" height="352" key="GridCell.Tab.0.center" timestamp="1604158834134">
+    <state width="1877" height="360" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1080.-66.1080.1890@0.0.1920.1050" timestamp="1606004749624" />
+    <state width="1877" height="360" key="GridCell.Tab.0.center" timestamp="1606004749624">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1840" height="352" key="GridCell.Tab.0.center/0.0.1920.1050/-1080.-66.1080.1890@0.0.1920.1050" timestamp="1604158834134" />
-    <state width="1840" height="352" key="GridCell.Tab.0.left" timestamp="1604158834134">
+    <state width="1877" height="360" key="GridCell.Tab.0.center/0.0.1920.1050/-1080.-66.1080.1890@0.0.1920.1050" timestamp="1606004749624" />
+    <state width="1877" height="360" key="GridCell.Tab.0.left" timestamp="1606004749624">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1840" height="352" key="GridCell.Tab.0.left/0.0.1920.1050/-1080.-66.1080.1890@0.0.1920.1050" timestamp="1604158834134" />
-    <state width="1840" height="352" key="GridCell.Tab.0.right" timestamp="1604158834136">
+    <state width="1877" height="360" key="GridCell.Tab.0.left/0.0.1920.1050/-1080.-66.1080.1890@0.0.1920.1050" timestamp="1606004749624" />
+    <state width="1877" height="360" key="GridCell.Tab.0.right" timestamp="1606004749624">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1840" height="352" key="GridCell.Tab.0.right/0.0.1920.1050/-1080.-66.1080.1890@0.0.1920.1050" timestamp="1604158834136" />
-    <state width="1840" height="352" key="GridCell.Tab.1.bottom" timestamp="1604158834136">
+    <state width="1877" height="360" key="GridCell.Tab.0.right/0.0.1920.1050/-1080.-66.1080.1890@0.0.1920.1050" timestamp="1606004749624" />
+    <state width="1877" height="360" key="GridCell.Tab.1.bottom" timestamp="1606004749624">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1840" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050/-1080.-66.1080.1890@0.0.1920.1050" timestamp="1604158834136" />
-    <state width="1840" height="352" key="GridCell.Tab.1.center" timestamp="1604158834136">
+    <state width="1877" height="360" key="GridCell.Tab.1.bottom/0.0.1920.1050/-1080.-66.1080.1890@0.0.1920.1050" timestamp="1606004749624" />
+    <state width="1877" height="360" key="GridCell.Tab.1.center" timestamp="1606004749624">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1840" height="352" key="GridCell.Tab.1.center/0.0.1920.1050/-1080.-66.1080.1890@0.0.1920.1050" timestamp="1604158834136" />
-    <state width="1840" height="352" key="GridCell.Tab.1.left" timestamp="1604158834136">
+    <state width="1877" height="360" key="GridCell.Tab.1.center/0.0.1920.1050/-1080.-66.1080.1890@0.0.1920.1050" timestamp="1606004749624" />
+    <state width="1877" height="360" key="GridCell.Tab.1.left" timestamp="1606004749624">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1840" height="352" key="GridCell.Tab.1.left/0.0.1920.1050/-1080.-66.1080.1890@0.0.1920.1050" timestamp="1604158834136" />
-    <state width="1840" height="352" key="GridCell.Tab.1.right" timestamp="1604158834136">
+    <state width="1877" height="360" key="GridCell.Tab.1.left/0.0.1920.1050/-1080.-66.1080.1890@0.0.1920.1050" timestamp="1606004749624" />
+    <state width="1877" height="360" key="GridCell.Tab.1.right" timestamp="1606004749624">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1840" height="352" key="GridCell.Tab.1.right/0.0.1920.1050/-1080.-66.1080.1890@0.0.1920.1050" timestamp="1604158834136" />
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1604158337607">
+    <state width="1877" height="360" key="GridCell.Tab.1.right/0.0.1920.1050/-1080.-66.1080.1890@0.0.1920.1050" timestamp="1606004749624" />
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1605897656042">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1080.-66.1080.1890@0.0.1920.1050" timestamp="1604158337607" />
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1080.-66.1080.1890@0.0.1920.1050" timestamp="1605897656042" />
     <state x="769" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605896189479">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -281,11 +323,62 @@
           <line>64</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CC_Qs/BloombergPractice/twoCityScheduling.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CC_Qs/BloombergPractice/twoCityScheduling.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CC_Qs/BloombergPractice/twoCityScheduling.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CC_Qs/BloombergPractice/twoCityScheduling.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CC_Qs/BloombergPractice/twoCityScheduling.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CC_Qs/BloombergPractice/twoCityScheduling.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CC_Qs/BloombergPractice/twoCityScheduling.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CC_Qs/BloombergPractice/twoCityScheduling.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CC_Qs/BloombergPractice/twoCityScheduling.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CC_Qs/BloombergPractice/twoCityScheduling.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Joshs_practice_problems$reversestrings.coverage" NAME="reversestrings Coverage Results" MODIFIED="1603722788602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Leetcode/Strings" />
+    <SUITE FILE_PATH="coverage/Joshs_practice_problems$twoCityScheduling.coverage" NAME="twoCityScheduling Coverage Results" MODIFIED="1606004749613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CC_Qs/BloombergPractice" />
+    <SUITE FILE_PATH="coverage/Joshs_practice_problems$reversestrings.coverage" NAME="reversestrings Coverage Results" MODIFIED="1606003663099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Leetcode/Strings" />
     <SUITE FILE_PATH="coverage/Practice$Rotate_Array.coverage" NAME="Rotate Array Coverage Results" MODIFIED="1600447613552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Practice$Best_Time_to_Buy_and_Sell_Stock_II.coverage" NAME="Best Time to Buy and Sell Stock II Coverage Results" MODIFIED="1600293427475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Joshs_practice_problems$Rotate_Array.coverage" NAME="Rotate Array Coverage Results" MODIFIED="1603722218439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
