@@ -2,6 +2,7 @@
 
 from typing import List
 
+
 class Solution:
     prices2 = [7, 1, 5, 3, 6, 4]
     prices = [3, 3, 5, 0, 0, 3, 1, 4]
@@ -26,6 +27,7 @@ class Solution:
                     maxy += prices[idx] - damin
 
         return maxy
+
 
 
 memes = Solution()

@@ -29,13 +29,13 @@ Implement a class called AirMap that has two methods:
     - prints all possible routes from start to destination irrespective of hops
 '''
 
+# TODO fix the recursive solution
 
 class Solution:
 
     fDict = dict()
-    currentRoute = list()
-    vDict = set()
-    stack = list()
+    visited = set()
+    route = ""
 
     def add_route(self, start, des):
 
@@ -45,22 +45,41 @@ class Solution:
             self.fDict.setdefault(start, [des])
 
     def print_all_routes(self, start, des):
-        if start not in self.vDict:
-            self.vDict.add(start)
-            if start in self.fDict:
-                self.currentRoute.append(start)
-                for item in self.fDict[start]:
-                    self.stack.append(item)
+        if start in self.fDict:
 
-            while len(self.stack) > 0:
-                curStart = self.stack[-1]
-                self.stack.pop(-1)
-                if curStart == des:
-                    self.currentRoute.append(curStart)
-                    print(str(self.currentRoute))
-                    self.currentRoute = list()
+            if start not in self.visited:
+                self.visited.add(start)
+                self.route += start
+
+                if start == des:
+                    print(str(self.route))
+                    self.visited = set()
                 else:
-                    self.print_all_routes(curStart, des)
+                    for s in self.fDict[start]:
+                        self.print_all_routes(s, des)
+
+    def print_all_routes2(self, start, des):
+        stack = list()
+        route = str(start)
+
+        stack.append(start)
+
+        while len(stack):
+
+            curStart = stack[-1]
+            stack.pop(-1)
+
+            if curStart not in route:
+                route += curStart
+
+            if curStart == des:
+                print(route)
+                route = ""
+
+            else:
+                for aPort in self.fDict[start]:
+                    stack.append(aPort)
+
 
 
 
@@ -72,4 +91,4 @@ if __name__ == '__main__':
     tester.add_route('b', 'c')
     tester.add_route('c', 'a')
     tester.add_route('c', 'b')
-    print(tester.print_all_routes('a', 'c'))
+    print(tester.print_all_routes2('a', 'c'))
