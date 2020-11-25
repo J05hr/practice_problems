@@ -1,5 +1,7 @@
 import math
 
+# https://www.hackerrank.com/challenges/count-triplets-1/problem
+
 def triplets(n, nums, thres):
 
     # sort the list and make sure it's a unique set
