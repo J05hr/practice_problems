@@ -29,13 +29,10 @@ Implement a class called AirMap that has two methods:
     - prints all possible routes from start to destination irrespective of hops
 '''
 
-# TODO fix the recursive solution
-
 
 class Solution:
 
     fDict = dict()
-    routes = [""]
 
     def add_route(self, start, des):
         if start in self.fDict:
@@ -43,23 +40,21 @@ class Solution:
         else:
             self.fDict.setdefault(start, [des])
 
-    # recursive approach
+    # recursive approach, we pass the whole route string into "start" and the last char is the next start
+    # DFS style traversal, time bigO(nodes+edges), space bigO(nodes) if we have a DS with O(1) lookup
     def print_all_routes(self, start, des):
-        cRoute = self.routes[-1]
-        self.routes.pop()
+        cStart = start[-1]
 
         # stop if airport not in dict
         if start in self.fDict:
-            # add the aport if its not in the route
-            if start not in self.routes[-1]:
-                self.routes[-1] += start
+
             # if we arnt at the goal recurse through all the children
-            if start != des:
-                for child in self.fDict[start]:
-                    self.print_all_routes(child, des)
-            # if we hit the goal dest then start a new route
+            if cStart not in start[:-1] and cStart != des:
+                for child in self.fDict[cStart]:
+                    self.print_all_routes(start+child, des)
+            # if we hit the goal dest then print
             else:
-                print(self.routes[-1])
+                print(start)
         else:
             return "airport {} not found".format(start)
 
@@ -82,7 +77,7 @@ class Solution:
                 else:
                     print(cRoute)
         else:
-            return "airport {} not found".format(start)
+            print("airport {} not found".format(start))
 
 if __name__ == '__main__':
     tester = Solution()
@@ -91,6 +86,5 @@ if __name__ == '__main__':
     tester.add_route('c', 'b')
     tester.add_route('c', 'a')
     tester.add_route('b', 'c')
-    tester.add_route('b', 'd')
-    tester.add_route('d', 'b')
-    tester.print_all_routes('a', 'd')
+    tester.add_route('b', 'a')
+    tester.print_all_routes2('a', 'c')
