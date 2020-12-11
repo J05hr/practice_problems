@@ -21,5 +21,5 @@ class Solution:
 
 if __name__ == '__main__':
     tester = Solution()
-    ans = tester.maxProfit([9,1,10,5,6,3,20,1,1,1,90,2])
+    ans = tester.maxProfit([9,1,10,5,6,3,20,1,1,1,90,2,-1, 50])
     print(ans)
