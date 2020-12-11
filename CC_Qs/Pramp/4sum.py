@@ -38,8 +38,8 @@ class Solution:
         # sort arr in an ascending order
         arr.sort()
 
-        for idx in range(n-1):
-            for idx2 in range(idx + 1, n):
+        for idx in range(n-3):
+            for idx2 in range(idx + 1, n-2):
                 # trgt stores the complementing sum
                 trgt = s - (arr[idx] + arr[idx2])
 
@@ -122,5 +122,5 @@ class Solution:
 
 if __name__ == '__main__':
     tester = Solution()
-    ans = tester.findArrayQuadruplet3([2, 7, 4, 0, 9, 5, 1, 3], 20)
+    ans = tester.findArrayQuadruplet([2, 7, 4, 0, 9, 5, 1, 3], 20)
     print(ans)
