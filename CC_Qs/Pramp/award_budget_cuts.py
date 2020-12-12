@@ -24,15 +24,22 @@ Constraints:
 
 
 class Solution:
-    def func(self, param):
+    def find_grants_cap(self, grantsArray, newBudget):
 
-        shepherd = "Mary"
-        string_in_string = "Shepherd {} is on duty.".format(shepherd)
+        grantsArray.sort()
+        n = len(grantsArray)
+        cur_budget = newBudget
 
-        return None
+        for item in grantsArray:
+            maxi = cur_budget / n
+            if item < maxi:
+                cur_budget -= item
+            else:
+                return maxi
+            n -= 1
 
 
 if __name__ == '__main__':
     tester = Solution()
-    ans = tester.func(None)
+    ans = tester.find_grants_cap([2, 4], 3)
     print(ans)
