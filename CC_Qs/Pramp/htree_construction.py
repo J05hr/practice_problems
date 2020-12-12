@@ -59,9 +59,8 @@ class Solution:
         return (x1, y1), (x2, y2)
 
 
-
-
 if __name__ == '__main__':
     tester = Solution()
-    ans = tester.draw_htree(1, 1)
+    tester.draw_htree(1, 1, 10, 3)
+    ans = tester.drawing
     print(ans)
