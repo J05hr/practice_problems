@@ -43,3 +43,4 @@ if __name__ == '__main__':
     tester = Solution()
     ans = tester.find_grants_cap([2, 4], 3)
     print(ans)
+

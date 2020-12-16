@@ -122,5 +122,5 @@ class Solution:
 
 if __name__ == '__main__':
     tester = Solution()
-    ans = tester.findArrayQuadruplet([2, 7, 4, 0, 9, 5, 1, 3], 20)
+    ans = tester.findArrayQuadruplet3([2, 7, 4, 0, 9, 5, 1, 3], 20)
     print(ans)
